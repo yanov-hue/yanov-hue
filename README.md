@@ -3,7 +3,7 @@
 - 💻 creating and solving stuff, chess / student
 - 🌱 Currently learning: html css javascript c# java
 - 📫 Reach me: mailto:yanovladislav@gmail.com / [LinkedIn]
-  (https://www.linkedin.com/in/YOUR_PROFILE_LINK) non existant forever </3
+  (https://www.linkedin.com/in/YOUR_PROFILE_LINK) non existant forever likely </3
 
 ## ⚙ My Tech Stack
 
