@@ -1,14 +1,13 @@
 ## Hi, I'm Vlad 💫
 
-- 💻 creating and solving stuff, chess / student
-- 🌱 Currently learning: html css javascript c# java
-- 📫 Reach me: mailto:yanovladislav@gmail.com / [LinkedIn]
-  (https://www.linkedin.com/in/YOUR_PROFILE_LINK) non existant forever likely </3
+- 💻 Problem Solver / Computer Science Student
+- 🌱 Currently learning: Web Development
+- 📫 Reach me @ [yanovladislav@gmail.com ](mailto:yanovladislav@gmail.com) 
 
 ## ⚙ My Tech Stack
 
-html css js c# md
+HTML, CSS, JS, C#
 
 ## 🛠 My Favorite Tools
 
-powershell, vs code, oracle vbox
+Powershell, VS Code, Oracle Vbox
