@@ -1,0 +1,127 @@
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="" />
+  <title>Vladislav Yanovsky website</title>
+  <link rel="stylesheet" href="./globals.css" />
+  <link rel="stylesheet" href="./index.css" />
+
+</head>
+<body>
+  <div class="page">
+    <header class="navbar">
+      <div class="navbar__logo" aria-label="Site logo">Vlogo</div>
+      <nav aria-label="Primary">
+        <ul class="navbar__links">
+          <li><a href="./">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="layout">
+      <aside class="sidebar" aria-label="Sidebar menu">
+        <h2 class="sidebar__title">Menu</h2>
+        <a class="sidebar__link" href="./project-name-1.html">proj1</a>
+        <a class="sidebar__link" href="./project-name-2.html">proj2</a>
+      </aside>
+
+      <main class="main-content" id="main">
+  <article class="content-card">
+    <header>
+      <h1 class="content-card__title">Rainfall Calculation Project</h1>
+    </header>
+
+    <section>
+      <h2>Description</h2>
+      <p>
+        This programming project prompts users to input rainfall data for each month of the year. 
+        The application stores these inputs in an array and performs statistical analysis to 
+        determine total annual rainfall, monthly averages, and identifies the specific months 
+        with the highest and lowest precipitation levels.
+      </p>
+    </section>
+
+    <section>
+      <h2>Technologies Used</h2>
+      <p>
+        Coded in <strong>C#</strong> using the <strong>.NET Framework</strong>. 
+        The project was developed in Visual Studio Code and executes within a terminal environment.
+      </p>
+    </section>
+
+    <section>
+      <h2>Code Snippets</h2>
+
+      <h3>Input Validation & Array Storage</h3>
+      <pre><code>
+for (int i = 0; i < ARRAYSIZE; i++)
+{
+    Console.WriteLine("What was the total rainfall in mm during the month of " + months[i] + ".");
+    while (!int.TryParse(Console.ReadLine(), out rainfallval) || rainfallval < 0)
+    {
+        Console.WriteLine("Please enter a whole, positive number");
+    }
+    montharray[i] = rainfallval;
+    Console.Clear();
+}
+      </code></pre>
+
+      <h3>Statistics Calculation</h3>
+      <pre><code>
+static int calctotalrain(Int32[] montharray)
+{
+    return montharray.Sum();
+}
+
+static int highestrain(Int32[] montharray)
+{
+    Int32 highestnum = montharray[0];
+    Int32 chosenmonth = 0;
+    for (int i = 0; i < ARRAYSIZE; ++i)
+    {
+        if (montharray[i] > highestnum)
+        {
+            highestnum = montharray[i];
+            chosenmonth = i;
+        }
+    }
+    return chosenmonth;
+}
+      </code></pre>
+    </section>
+
+    <section>
+      <h2>Screenshots</h2>
+      <div class="project-media">
+        <img src="./assets/images/rainfall-code-length.png" alt="C# code structure for rainfall calculation project" loading="lazy">
+        <img src="./assets/images/rainfall-output.png" alt="Console output showing rainfall statistics analysis" loading="lazy">
+      </div>
+    </section>
+
+    <section>
+      <h2>What I Learned</h2>
+      <p>
+        This project solidified my understanding of fundamental C# features, including 
+        <strong>arrays</strong>, <strong>loops</strong>, and <strong>functions</strong>. 
+        It provided practical experience in combining these features to build a functional 
+        data analysis tool, improving my critical thinking regarding input validation and 
+        data processing logic.
+      </p>
+    </section>
+  </article>
+</main>
+
+    </div>
+
+
+  </div>
+</body>
+
+</html>
