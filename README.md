@@ -1,7 +1,7 @@
 ## Hi, I'm Vlad 💫
 
 - 💻 Problem Solver / Computer Science Student
-- 🌱 Currently learning: Web Development
+- 🌱 Currently learning: Web Development - Object Oriented Programming
 - 📫 Reach me @ [yanovladislav@gmail.com ](mailto:yanovladislav@gmail.com) 
 
 ## ⚙ My Tech Stack
