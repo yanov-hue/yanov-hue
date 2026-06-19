@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="" />
+  <title>Vladislav Yanovsky website</title>
+<link rel="stylesheet" href="../styles/globals.css" />
+  <link rel="stylesheet" href="../styles/index.css" />
+</head>
+<body>
+  <div class="page">
+    <header class="navbar">
+<div class="navbar__logo">VY</div>
+      <nav aria-label="Primary">
+        <ul class="navbar__links">
+<li><a href="../index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="layout">
+      <aside class="sidebar" aria-label="Sidebar menu">
+        <h2 class="sidebar__title">Menu</h2>
+<a class="sidebar__link" href="project-name-1.html">Alien Shooter</a>
+<a class="sidebar__link" href="project-name-2.html">Rainfall Project</a>
+      </aside>
+
+      <main class="main-content" id="main">
+        <article class="content-card">
+          <h1 class="content-card__title">Alien Shooter Console Video Game</h1>
+          
+          <section>
+            <h2>Description</h2>
+            <p>
+              This was a project I worked on for my programming final. It was a game run in the console 
+              which included multiple mechanics like movement, shooting, teleportation, EMP blasts, 
+              enemy alien ships, and rounds that progressed in difficulty.
+            </p>
+          </section>
+
+          <section>
+            <h2>Technologies Used</h2>
+            <p>
+              This project was created inside of Visual Studio Code and ran inside of the terminal. 
+              The project was coded in the C# language using the .NET framework.
+            </p>
+          </section>
+
+          <section>
+            <h2>Code Snippets</h2>
+            
+            <h3>Ship Teleportation Draw Function</h3>
+            <pre><code>
+oldship(ShipX, ShipY);
+DrawPortal(ShipX, ShipY, " ");
+// Boundary and Randomization logic
+ShipX = Math.Max(minX, Math.Min(maxX, newX));
+ShipY = Math.Max(minY, Math.Min(maxY, newY));
+            </code></pre>
+
+            <h3>Laser Collision Logic</h3>
+            <pre><code>
+if (LaserX[i] >= EnemyX[j] - 1 && LaserX[i] <= EnemyX[j] + 1 && LaserY[i] == EnemyY[j])
+{
+    EnemyHealth[j] -= 50;
+    // ... handling enemy death
+}
+            </code></pre>
+          </section>
+
+         <section>
+            <h2>Screenshot</h2>
+            <div class="project-media">
+              <img src="../assets/images/alienxgame.png" alt="Main menu of the Alien Shooter console game" loading="lazy">
+            </div>
+          </section>
+
+          <section>
+            <h2>What I Learned</h2>
+            <p>
+              This project was invaluable for developing practical skills in C#. It allowed me to 
+              synergize arrays and functions to create complex game loops and smooth movement 
+              within a terminal environment.
+            </p>
+          </section>
+        </article>
+      </main>
+
+    </div>
+
+
+  </div>
+</body>
+
+</html>
